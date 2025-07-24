@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Colinha html</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h1>Sobre</h1>
+        <!-- Formatacao -->
+        <p>Texto em <strong>negrito</strong></p>
+        <p>Texto em <em>italico</em></p>
+        <p>Texto em <u>underline</u></p>
+        <p>Texto <strike>riscado</strike></p>
+
+        <h2>Mapa do site:</h2>
+        <!-- listas nao ordenadas-->
+        <ul type="circle"> <!-- circle, square, disc -->
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+
+        <h2>Perguntas frequentes:</h2>
+        <!--Listas ordenadas-->
+        <ol type="1"> <!-- 1, A, a, I, i -->
+            <li>Quem somos?</li>
+            <li>O que fazemos?</li>
+        </ol>
+
+        <hr>
+
+        <!--Imagens-->
+        <img src="imagens/steinsgate.jfif" width="600" height="400">
+
+        <hr>
+
+        <!--Links/hyperlinks-->
+        <h3><a href="index.html">Index</a></h3>
+
+        <!--Tabelas-->
+        <table border="2" width="100%">
+            <tr>
+                <th>head 1</th>
+                <th>head 2</th> <!--table header-->
+            </tr> <!--table row-->
+            <tr>
+                <td colspan="2" rowspan="2">row 1</td><!--Table data e expansao de cel-->
+            </tr>
+        </table>
+
+        <!--Forms-->
+        <h2>Fake login</h2>
+        <form action="">
+            Login:<br>
+            <input type="text" name="login" id=""><br>
+            Senha:<br>
+            <input type="password" name="senha" id=""><br>
+            <input type="button" value="Entrar"><br> <!-- SUBMIT INSEGURO!!! OLHAR LINK HTML-->
+
+        </form>
+
+        <h2>Registro fake</h2>
+        <form>
+            Login:<br>
+            <input type="text" name="login"><br>
+
+            Sexo:<br>
+            <input type="radio" name="sexo" value="m">Masculino<br>
+            <input type="radio" name="sexo" value="f">Feminino<br>
+
+            Interesses:<br>
+            <input type="checkbox" name="interesses" >Jogos<br>
+            <input type="checkbox" name="interesses" >Anime<br>
+
+            Estado:<br>
+            <select name="estado">
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="sc">SC</option>
+            </select><br><br>
+
+            Observações:<br>
+            <textarea></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+
+        </form>
+
+        <!--Caracteres especiais checar entities do html online (espacoes, chave, etc)-->
+        <h2>caracteres especiais:</h2>
+        <a href="https://www.w3schools.com/html/html_entities.asp">Referencias para caracteres especiais</a>
+
+    </body>
+
+</html>
